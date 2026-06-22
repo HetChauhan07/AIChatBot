@@ -1,0 +1,18 @@
+# Environment Variables (DO NOT COMMIT API KEYS)
+backend/.env
+
+# Node modules
+frontend/node_modules/
+frontend/dist/
+
+# Python cache & env
+backend/__pycache__/
+backend/venv/
+backend/env/
+
+# SQLite Database (Do not commit user chat history)
+backend/chat.db
+
+# OS specific files
+.DS_Store
+Thumbs.db
