@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/chat",
+      "destination": "https://aichatbot-backend-4zpm.onrender.com/chat"
+    },
+    {
+      "source": "/reset",
+      "destination": "https://aichatbot-backend-4zpm.onrender.com/reset"
+    },
+    {
+      "source": "/sessions",
+      "destination": "https://aichatbot-backend-4zpm.onrender.com/sessions"
+    },
+    {
+      "source": "/session/:match*",
+      "destination": "https://aichatbot-backend-4zpm.onrender.com/session/:match*"
+    }
+  ]
+}
