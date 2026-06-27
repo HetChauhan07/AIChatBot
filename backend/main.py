@@ -1,12 +1,10 @@
 """
-ContextChat Backend — FastAPI server for Flowly customer support chatbot.
+AI Companion Chatbot Backend — FastAPI server for a general-purpose AI companion chatbot.
 
 Handles:
 - Multi-turn conversations with rolling memory summarization
-- Guardrails (profanity/off-topic filtering)
 - Session persistence via SQLite
 """
-
 import os
 import sqlite3
 import json
